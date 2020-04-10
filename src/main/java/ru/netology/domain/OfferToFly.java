@@ -12,7 +12,7 @@ public class OfferToFly implements Comparable<OfferToFly> {
     private int price;
     private String departure;
     private String arrival;
-    private int traveltime;
+    private int travelTime;
 
     @Override
     public int compareTo(OfferToFly o) {
