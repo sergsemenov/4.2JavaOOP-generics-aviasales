@@ -78,7 +78,8 @@ class OfferManagerTest {
         assertArrayEquals(expected, actual);
     }
 
-    void shouldFindAllSorted() {
+    @Test
+    void shouldFindNothing() {
         OfferToFly[] actual = manager.findAllFromToSortedBy("LED","LED", new OfferComparator());
         OfferToFly[] expected = {};
 
